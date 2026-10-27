@@ -6,7 +6,7 @@ Usage (from anywhere):
 
 The Unraveling (default) writes Part_<N>_cover.jpg in the repo root.
 --story exit-plan writes exit-plan/Part_<N>_cover.jpg with the title THE EXIT PLAN.
---story kindling writes kindling/Part_<N>_cover.jpg with the title KINDLING.
+--story ashes-of-a-friendship writes ashes-of-a-friendship/Part_<N>_cover.jpg with the title ASHES OF A FRIENDSHIP.
 Needs: pip install playwright (Chromium already installed).
 """
 import sys, html
@@ -20,7 +20,7 @@ ACCENT = {"Sabine": "#e3263a", "Odessa": "#e0a43a", "Rhys": "#8fb4d9", "Lucian":
           "Celeste": "#e3263a", "Dash": "#8fb4d9", "Desmond": "#e0a43a", "Tamsin": "#e46aa0",
           "Marguerite": "#b394e6", "Wren": "#4fd1a5",
           "Lani": "#e3263a", "Seven": "#ff7a1a", "Tez": "#8fb4d9", "Legend": "#e0a43a", "Brielle": "#b394e6"}
-STORIES = {"unraveling": ("THE", "UNRAVELING", 140, "", "A Fallout Story"), "exit-plan": ("THE", "EXIT PLAN", 150, "exit-plan", "A Love Story"), "kindling": ("", "KINDLING", 160, "kindling", "A Lies Story")}
+STORIES = {"unraveling": ("THE", "UNRAVELING", 140, "", "A Fallout Story"), "exit-plan": ("THE", "EXIT PLAN", 150, "exit-plan", "A Love Story"), "ashes-of-a-friendship": ("ASHES OF A", "FRIENDSHIP", 132, "ashes-of-a-friendship", "A Lies Story")}
 STORY = "unraveling"
 
 CSS = """
